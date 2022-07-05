@@ -1,0 +1,13 @@
+#!/bin/bash
+ampy -p /dev/ttyACM0 ls
+ampy -p /dev/ttyACM0 put index2.html
+ampy -p /dev/ttyACM0 put favicon.ico
+ampy -p /dev/ttyACM0 put main.py
+ampy -p /dev/ttyACM0 put myscript.js
+ampy -p /dev/ttyACM0 put myscript2.js
+ampy -p /dev/ttyACM0 put myscript3.js
+ampy -p /dev/ttyACM0 put myscript4.js
+ampy -p /dev/ttyACM0 put myscript5.js
+ampy -p /dev/ttyACM0 put myscript6.js
+ampy -p /dev/ttyACM0 put myscript7.js
+ampy -p /dev/ttyACM0 ls

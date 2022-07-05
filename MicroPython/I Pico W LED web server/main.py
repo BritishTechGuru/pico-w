@@ -11,7 +11,7 @@ led = machine.Pin('LED', machine.Pin.OUT)
 led.off()
 
 def get_file(file_name):
-    with open(file_name, 'r') as file:
+    with open(file_name, 'rb') as file:
         return file.read()
 
 # HTTP server with socket

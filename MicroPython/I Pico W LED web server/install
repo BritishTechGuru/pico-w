@@ -1,13 +1,13 @@
 #!/bin/bash
 ampy -p /dev/ttyACM0 ls
-ampy -p /dev/ttyACM0 put index.html
+ampy -p /dev/ttyACM0 put assert.js
+ampy -p /dev/ttyACM0 put convex_face_straight_line_drawing.js
 ampy -p /dev/ttyACM0 put favicon.ico
+ampy -p /dev/ttyACM0 put fullerenes.js
+ampy -p /dev/ttyACM0 put gauss-jordan.js
+ampy -p /dev/ttyACM0 put htmlsvg.min.js
+ampy -p /dev/ttyACM0 put index.html
 ampy -p /dev/ttyACM0 put main.py
-ampy -p /dev/ttyACM0 put myscript.js
-ampy -p /dev/ttyACM0 put myscript2.js
-ampy -p /dev/ttyACM0 put myscript3.js
-ampy -p /dev/ttyACM0 put myscript4.js
-ampy -p /dev/ttyACM0 put myscript5.js
-ampy -p /dev/ttyACM0 put myscript6.js
-ampy -p /dev/ttyACM0 put myscript7.js
+ampy -p /dev/ttyACM0 put tutte.js
+ampy -p /dev/ttyACM0 put undirected_graph.js
 ampy -p /dev/ttyACM0 ls
