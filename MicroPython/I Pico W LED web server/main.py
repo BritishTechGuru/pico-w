@@ -19,7 +19,7 @@ addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
 
 s = socket.socket()
 s.bind(addr)
-s.listen(1)
+s.listen(10)
 
 print('Listening on', addr)
 
