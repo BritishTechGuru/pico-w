@@ -7,6 +7,9 @@ ap = network.WLAN(network.AP_IF)
 ap.config(essid="pico_w_ap")
 ap.active(True)
 
+## PROBLEM HERE
+## On my phone it asks for a password to join Pico_w_ap
+
 led = machine.Pin('LED', machine.Pin.OUT)
 led.off()
 
